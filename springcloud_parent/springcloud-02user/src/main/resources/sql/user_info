@@ -1,0 +1,11 @@
+create table springdb.user_info
+(
+    id      int          not null
+        primary key,
+    name    varchar(80)  null,
+    bir     timestamp    null,
+    sex     varchar(4)   null,
+    address varchar(120) null
+)
+    charset = utf8;
+
